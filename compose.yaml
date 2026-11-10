@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+      target: production
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: "8784"
+      AIGH_DATA_DIR: /app/server/data
+      AIGH_PUBLIC_ORIGIN: ${AIGH_PUBLIC_ORIGIN:?Impostare origine pubblica in .env}
+    ports:
+      - "127.0.0.1:${LOCAL_PORT:-18784}:8784"
+    volumes:
+      - app_data:/app/server/data
+volumes:
+  app_data:

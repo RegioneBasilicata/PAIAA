@@ -1,0 +1,12 @@
+(function(root){'use strict';
+const LEVELS=['Basso','Medio','Alto'];
+function gridData(rows,scenario='current'){
+ const cells=[];for(const after of [...LEVELS].reverse())for(const before of LEVELS)cells.push({before,after,rows:rows.filter(r=>r.before===before&&(scenario==='projected'?r.projected:r.after)===after)});
+ const excluded=rows.filter(r=>!LEVELS.includes(r.before)||!LEVELS.includes(scenario==='projected'?r.projected:r.after));
+ return {cells,excluded,total:rows.length,plotted:cells.reduce((n,c)=>n+c.rows.length,0),scenario};
+}
+function render(rows,scenario,E){const d=gridData(rows,scenario),name=scenario==='projected'?'Residuo atteso dalle misure scelte':'Rischio attuale con misure verificate';
+ return `<section class="panel matrix-simple"><h4>Matrice 3×3 · ${E(name)}</h4><p>Confronto con il rischio inerente. Apri una cella per consultare i rischi: il numero indica quanti rischi occupano quella posizione.</p><div class="matrix-axis-title">${E(name)} ↓</div><div class="matrix-simple-layout"><div class="matrix-nine">${d.cells.map((c,i)=>`${i%3===0?`<div class="matrix-row-label">${E(c.after)}</div>`:''}<details class="matrix-cell matrix-${c.after.toLowerCase()}"><summary><span class="visually-hidden">Inerente ${c.before}, ${E(name)}: </span><strong>${c.rows.length}</strong> <small>${E(c.after)}</small></summary><ul>${c.rows.length?c.rows.map(r=>`<li><strong>${E(r.title)}</strong><p>${E(r.before)} → ${E(scenario==='projected'?r.projected:r.after)}</p><small>${E(r.reference||'Rischio specifico')} · ${r.selected||0} misure scelte / ${r.verified||0} verificate</small></li>`).join(''):'<li>Nessun rischio in questa cella.</li>'}</ul></details>`).join('')}</div><div class="matrix-x-labels"><span>Basso</span><span>Medio</span><span>Alto</span></div></div><div class="matrix-axis-title">Rischio inerente →</div><p class="microcopy">${d.plotted} rischi rappresentati su ${d.total}. I livelli sono automatici; la matrice non consente di modificarli. Gli assi confrontano due livelli di rischio, senza introdurre punteggi di probabilità o impatto.</p>${d.excluded.length?`<p class="banner warn">${d.excluded.length} rischi non collocabili: ${d.excluded.map(r=>E(r.title)).join('; ')}. Completare la valutazione.</p>`:''}</section>`;
+}
+const api={LEVELS,gridData,render};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.AIGHRiskMatrix=api;
+})(typeof globalThis!=='undefined'?globalThis:this);

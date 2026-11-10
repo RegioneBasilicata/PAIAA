@@ -1,0 +1,21 @@
+{
+  "name": "paiaa-processo-sei-fasi",
+  "version": "4.0.0-wip.9",
+  "private": true,
+  "description": "Governance AI mono-Ente: offline dimostrativo e backend locale con sessioni, SQLite e audit.",
+  "engines": {
+    "node": ">=24.13.0 <25"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node tests/run-v4.js",
+    "test:all": "node tests/run-v4.js",
+    "test:legacy-reference": "node tests/run-current.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "axe-core": "4.14.0"
+  },
+  "license": "EUPL-1.2"
+}

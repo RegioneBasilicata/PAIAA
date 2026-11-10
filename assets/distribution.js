@@ -1,0 +1,1 @@
+(function(root){'use strict';const config=Object.freeze({referenceDocuments:'external',catalogTemplateAvailable:false});if(typeof module!=='undefined'&&module.exports)module.exports=config;root.PAIAADistribution=config;})(typeof window!=='undefined'?window:globalThis);

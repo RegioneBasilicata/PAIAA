@@ -1,0 +1,7 @@
+(function(root){'use strict';
+const Security=typeof module!=='undefined'&&module.exports?require('./security'):root.AIGHSecurity;
+const CSS='.paiaa-letterhead{border-bottom:2px solid #245579;padding:0 0 18px;margin-bottom:24px;break-inside:avoid}.paiaa-letterhead img{display:block;max-width:150px;max-height:80px;object-fit:contain;margin-bottom:12px}.paiaa-letterhead strong{font-size:18pt;color:#183c56}.paiaa-letterhead p{margin:5px 0}.paiaa-document-footer{border-top:1px solid #9bacba;padding-top:10px;margin-top:26px;font-size:9pt;color:#465969}';
+function letterhead(entity,E){const e=entity||{},logo=Security.safeImage(e.logo||'');return '<div class="paiaa-letterhead">'+(logo?'<img src="'+E(logo)+'" alt="Logo '+E(e.name||'Ente')+'">':'')+'<p><strong>'+E(e.name||'Ente')+'</strong></p>'+(e.office?'<p>'+E(e.office)+'</p>':'')+'<p>'+[e.address,e.city,e.email,e.pec].filter(Boolean).map(E).join(' · ')+'</p></div>';}
+function wrap(ws,html,E){return letterhead(ws.entity,E)+html+'<div class="paiaa-document-footer"><p>'+E(ws.entity?.name||'Ente')+(ws.entity?.office?' · '+E(ws.entity.office):'')+' · Documento istruttorio PAIAA</p><p>Stato, versione e approvazione sono registrati nel fascicolo. La bozza non costituisce un atto sottoscritto o protocollato.</p></div>';}
+const api={CSS,letterhead,wrap};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.PAIAAInstitutionalDocuments=api;
+})(typeof globalThis!=='undefined'?globalThis:this);

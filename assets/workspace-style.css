@@ -1,0 +1,35 @@
+.page{--workspace-radius:12px}
+.page .final-result-facts{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}
+.page .final-result-facts>div{min-width:0;overflow-wrap:anywhere}
+@media(max-width:760px){.page .final-result-facts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.page .final-result-facts{grid-template-columns:minmax(0,1fr)}}
+.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head{padding:28px 32px;margin:0 0 28px;background:linear-gradient(115deg,#073d72,#0066b8);color:#fff;border:1px solid #064f8f;border-radius:16px;box-shadow:0 8px 24px #073d7214;align-items:center;gap:24px}
+.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head h1{color:#fff;font-size:clamp(1.8rem,2.7vw,2.3rem);line-height:1.2;margin:0}
+.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head p{color:#e3f1ff;font-size:1rem;line-height:1.5;margin:10px 0 0;max-width:76ch}
+.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head .btn:not(:disabled):not(.danger):not(.success){background:#fff;color:#064c8c;border-color:#fff;box-shadow:none}
+.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head .btn:focus-visible{outline:3px solid #ffd166;outline-offset:4px}
+.page .home-resume .home-resume-button{min-height:52px}
+.page .catalog-card{border:1px solid var(--line);border-radius:12px;padding:24px;box-shadow:0 2px 8px #17324d04}
+.page .journey-section-menu{border-radius:12px}
+.page .journey-footer{border-radius:12px}
+@media print{.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head{background:#fff;color:#000;border:0;box-shadow:none;padding:0}.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head h1,.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head p{color:#000}.page .panel,.page .card{box-shadow:none}}
+.page:not([data-page="welcome"]) .panel,.page:not([data-page="welcome"]) .card,.page:not([data-page="welcome"]) .table-wrap{border-radius:12px}
+.page:not([data-page="welcome"]) .btn{border-radius:8px}
+.page [hidden]{display:none!important}
+.page .btn:disabled,.page .btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed;box-shadow:none}
+body.theme-dark .page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head{background:#123c61;border-color:#80bdff}
+@media(max-width:760px){.page:not([data-page="welcome"]):not([data-page="case-hub"])>.page-head{padding:20px;flex-wrap:wrap}.page:not([data-page="welcome"])>.page-head>.actions{width:100%;flex-wrap:wrap}}
+
+.validation-readonly{border:0;margin:0;padding:0;min-inline-size:0;width:100%;}
+
+.assessment-completion-overview{border-top:4px solid var(--primary,#0066cc)}
+.assessment-missing-fields{display:grid;gap:1rem;padding-left:1.5rem}.assessment-missing-fields li{min-width:0;padding:.5rem 0}.assessment-missing-fields .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+.assessment-record-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1rem 0}.assessment-record-grid>div{min-width:0;padding:1rem;background:var(--surface-alt,#f3f7fa);border-radius:.5rem}.assessment-record-grid dt{font-weight:700}.assessment-record-grid dd{font-size:1.7rem;font-weight:700;margin:.5rem 0}.assessment-record-grid small{display:block;overflow-wrap:anywhere}.assessment-answers-review>summary{font-weight:700}
+@media(max-width:1000px){.assessment-record-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.assessment-record-grid{grid-template-columns:minmax(0,1fr)}}
+
+.normative-workflow .dossier-stage{border-top:1px solid var(--line,#b9cbd9);padding:1.25rem 0;margin-top:1rem;min-width:0}.normative-workflow .dossier-stage h5{margin:0 0 1rem}.normative-workflow .dossier-stage .actions{display:flex;gap:.75rem;flex-wrap:wrap}.normative-workflow .dossier-stage form{margin-top:1rem}.normative-workflow .dossier-steps li.active{border:2px solid var(--primary,#0066cc);background:#e8f3ff;color:#004b99}.normative-workflow .dossier-steps li{min-width:0;overflow-wrap:anywhere}.normative-workflow .dossier-stage .btn{max-width:100%;white-space:normal}
+
+.normative-workflow .assessment-question-progress-heading{flex-wrap:wrap;gap:.75rem}.normative-workflow .assessment-question-progress-heading>span,.normative-workflow .chip{white-space:normal;overflow-wrap:anywhere;max-width:100%}
+
+/* Guida operativa e identità documentale */
+.operator-guide{margin-left:auto;position:relative;min-width:0}.operator-guide>summary{cursor:pointer;color:var(--primary,#0066cc);font-weight:600;padding:.65rem .9rem;border:1px solid var(--line,#b9cbd9);border-radius:8px;background:var(--surface,#fff)}.operator-guide-panel{position:absolute;right:0;top:100%;z-index:20;width:min(440px,calc(100vw - 48px));max-height:65vh;overflow:auto;background:var(--surface,#fff);color:var(--text,#182b3c);border:1px solid var(--line,#b9cbd9);border-radius:12px;box-shadow:0 8px 24px #173b5926;padding:1.4rem;margin-top:8px}.operator-guide-panel h4{margin:0 0 1rem}.operator-guide-panel li{margin-bottom:.7rem}.journey-phase-title{flex-wrap:wrap}.editor .paiaa-letterhead{border-bottom:2px solid #245579;margin-bottom:24px;padding-bottom:18px}.editor .paiaa-letterhead img{display:block;max-width:150px;max-height:80px;object-fit:contain}.editor .paiaa-letterhead strong{font-size:1.4rem}.editor .paiaa-document-footer{border-top:1px solid #9bacba;margin-top:26px;padding-top:10px;font-size:.85rem;color:#465969}@media(max-width:600px){.operator-guide{margin-left:0;width:100%}.operator-guide-panel{left:0;right:auto;max-width:100%;width:100%;position:relative;max-height:none}}@media print{.operator-guide{display:none!important}}

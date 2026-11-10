@@ -1,0 +1,17 @@
+.status.case-status{--state-ink:#45596d;--state-fill:#f3f5f7;--state-line:#c3ced8;--state-icon:#e8edf2;display:inline-flex;align-items:center;gap:10px;max-width:100%;min-height:38px;padding:6px 12px 6px 6px;border:1px solid var(--state-line);border-radius:10px;background:var(--state-fill);color:var(--state-ink);font-size:.875rem;font-weight:750;line-height:1.35;vertical-align:middle;box-sizing:border-box;white-space:normal}
+.case-status .case-status-symbol{display:grid;place-items:center;flex:0 0 28px;width:28px;height:28px;border-radius:7px;background:var(--state-icon);color:var(--state-ink)}
+.case-status .case-status-symbol svg{display:block;width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.case-status .case-status-label{min-width:0;overflow-wrap:anywhere;letter-spacing:.025em}
+.case-status .case-status-dot{display:block;width:7px;height:7px;border-radius:50%;background:var(--state-ink);flex:0 0 7px;margin-left:4px}
+.status.case-status.giallo{--state-ink:#805000;--state-fill:#fff8e9;--state-line:#e9ca8f;--state-icon:#ffedc4}
+.status.case-status.verde{--state-ink:#17643e;--state-fill:#edf8f2;--state-line:#a5d5ba;--state-icon:#d8efe3}
+.status.case-status.rosso{--state-ink:#a52231;--state-fill:#fff1f2;--state-line:#edb2b9;--state-icon:#fbe0e4}
+.status.case-status.review{--state-ink:#314da0;--state-fill:#f0f3ff;--state-line:#b4c1ef;--state-icon:#dfe7ff}
+body.theme-dark .status.case-status{--state-ink:#d7e1ec;--state-fill:#253646;--state-line:#64788b;--state-icon:#344b60}
+body.theme-dark .status.case-status.giallo{--state-ink:#ffdc91;--state-fill:#3d331f;--state-line:#a88948;--state-icon:#574424}
+body.theme-dark .status.case-status.verde{--state-ink:#a6e5be;--state-fill:#173d2c;--state-line:#568969;--state-icon:#25533c}
+body.theme-dark .status.case-status.rosso{--state-ink:#ffb9c1;--state-fill:#47242b;--state-line:#b46572;--state-icon:#62313a}
+body.theme-dark .status.case-status.review{--state-ink:#c4d1ff;--state-fill:#293455;--state-line:#7c8dbd;--state-icon:#3c4b75}
+body.high-contrast .status.case-status{border-width:2px}
+@media(forced-colors:active){.status.case-status{border:1px solid CanvasText;background:Canvas;color:CanvasText}.case-status .case-status-symbol{background:Canvas;color:CanvasText}.case-status .case-status-dot{background:CanvasText}}
+@media print{.status.case-status{background:#fff!important;color:#172b3f!important;border-color:#52687b!important;break-inside:avoid}.case-status .case-status-symbol{background:#fff!important;color:#172b3f!important}}

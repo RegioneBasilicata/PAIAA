@@ -1,7 +1,5 @@
 # PAIAA — Percorso di governance dell’IA nella PA
 
-Versione: **4.0.0-wip.9**, distribuzione minima dei sorgenti. 
-Titolare indicato: **Regione Basilicata**. 
 Lo strumento supporta censimento, valutazione, evidenze, validazioni, decisioni e monitoraggio dei casi d’uso. 
 Gli esiti richiedono istruttoria e responsabilità umana: non costituiscono certificazioni o provvedimenti automatici.
 
@@ -9,6 +7,12 @@ Questo pacchetto è un candidato tecnico alla pubblicazione. Prima di renderlo
 pubblico completare [le condizioni di pubblicazione](PUBBLICAZIONE.md), compreso
 il riscontro dei diritti e dei contatti di manutenzione. Il codice originale è
 concesso secondo EUPL-1.2, approvata dall’utente; vedere `LICENSE` e `NOTICE`. Il software resta WIP.
+
+PAIAA — versione 4.0.0-wip.9
+Copyright (c) 2026 Regione Basilicata, per il codice originale.
+Concesso in licenza a norma dell’EUPL, versione 1.2.
+Il testo integrale è nel file LICENSE.
+I componenti di terzi conservano licenze e attribuzioni proprie: vedere THIRD_PARTY_NOTICES.md e LICENSES/.
 
 ## Avvio locale da sorgenti
 
