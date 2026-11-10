@@ -1,0 +1,68 @@
+[
+  {
+    "name": "buffer",
+    "referenceVersion": "6.0.3",
+    "declaredLicense": "MIT",
+    "licenseFile": "buffer-LICENSE.txt",
+    "licenseSHA256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+    "source": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "ieee754",
+    "referenceVersion": "1.2.1",
+    "declaredLicense": "BSD-3-Clause",
+    "licenseFile": "ieee754-LICENSE.txt",
+    "licenseSHA256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1",
+    "source": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "is-buffer",
+    "referenceVersion": "1.1.6",
+    "declaredLicense": "MIT",
+    "licenseFile": "is-buffer-LICENSE.txt",
+    "licenseSHA256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+    "source": "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "pad-left",
+    "referenceVersion": "1.0.2",
+    "declaredLicense": {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/pad-left/blob/master/LICENSE"
+    },
+    "licenseFile": "pad-left-LICENSE.txt",
+    "licenseSHA256": "daca23d50b0f54d36d6da1b16c82dfea6461e2ae20de0e869957e44cc6d34781",
+    "source": "https://registry.npmjs.org/pad-left/-/pad-left-1.0.2.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "repeat-string",
+    "referenceVersion": "1.6.1",
+    "declaredLicense": "MIT",
+    "licenseFile": "repeat-string-LICENSE.txt",
+    "licenseSHA256": "3672fb6ef1c214578dfee689643516c2685f61ab08d130517ca8ea24f383a840",
+    "source": "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "polybooljs",
+    "referenceVersion": "1.2.2",
+    "declaredLicense": "MIT",
+    "licenseFile": "polybooljs-LICENSE.txt",
+    "licenseSHA256": "6a3969e97bc3b992c17bfdcd6fcabd9b5688650cc0078235d512c014e86b716e",
+    "source": "https://registry.npmjs.org/polybooljs/-/polybooljs-1.2.2.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  },
+  {
+    "name": "object-assign",
+    "referenceVersion": "4.1.1",
+    "declaredLicense": "MIT",
+    "licenseFile": "object-assign-LICENSE.txt",
+    "licenseSHA256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c",
+    "source": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+    "scope": "Avviso nel bundle; versione di riferimento per il testo, non identificazione binaria indipendente"
+  }
+]

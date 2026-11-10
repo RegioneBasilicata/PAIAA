@@ -1,9 +1,9 @@
-# PAIAA — percorso di governance dell’IA nella PA
+# PAIAA — Percorso di governance dell’IA nella PA
 
-Versione **4.0.0-wip.9**, distribuzione minima dei sorgenti. Titolare indicato:
-**Regione Basilicata**. Lo strumento supporta censimento, valutazione, evidenze,
-validazioni, decisioni e monitoraggio dei casi d’uso. Gli esiti richiedono istruttoria
-e responsabilità umana: non costituiscono certificazioni o provvedimenti automatici.
+Versione: **4.0.0-wip.9**, distribuzione minima dei sorgenti. 
+Titolare indicato: **Regione Basilicata**. 
+Lo strumento supporta censimento, valutazione, evidenze, validazioni, decisioni e monitoraggio dei casi d’uso. 
+Gli esiti richiedono istruttoria e responsabilità umana: non costituiscono certificazioni o provvedimenti automatici.
 
 Questo pacchetto è un candidato tecnico alla pubblicazione. Prima di renderlo
 pubblico completare [le condizioni di pubblicazione](PUBBLICAZIONE.md), compreso

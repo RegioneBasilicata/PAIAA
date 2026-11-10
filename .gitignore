@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.local/
+server/data/
+node_modules/
+*.log
+*.sqlite*
+*.db*
+*.pem
+*.key
+.DS_Store
+test-results/
+playwright-report/
+coverage/

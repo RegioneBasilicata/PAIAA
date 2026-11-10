@@ -1,0 +1,41 @@
+{
+  "consulted": "2026-11-09",
+  "assets": [
+    {
+      "file": "assets/italia-titillium-web-v10-latin-ext_latin-700.woff2",
+      "sha256": "4d86abb016cadc41c627eba35643998b97dab66ddb1f8435ce7c4b3aeb96cb9c",
+      "source": "https://registry.npmjs.org/bootstrap-italia/-/bootstrap-italia-2.18.3.tgz",
+      "verification": "Identico byte per byte al file nel pacchetto upstream"
+    },
+    {
+      "file": "assets/italia-titillium-web-v10-latin-ext_latin-italic.woff2",
+      "sha256": "fa906b78150737b0228591c83eb8e636cb9b66ba8e744c67762fe1ab8e25c21d",
+      "source": "https://registry.npmjs.org/bootstrap-italia/-/bootstrap-italia-2.18.3.tgz",
+      "verification": "Identico byte per byte al file nel pacchetto upstream"
+    },
+    {
+      "file": "assets/plotly-gl3d-3.1.0.min.js",
+      "sha256": "17df71fcd0e31dd278c2f8bc6e890b4b037426502a3c8f82dc27c9f871592f14",
+      "source": "https://registry.npmjs.org/plotly.js-gl3d-dist-min/-/plotly.js-gl3d-dist-min-3.1.0.tgz",
+      "verification": "Identico byte per byte al file nel pacchetto upstream"
+    },
+    {
+      "file": "assets/italia-titillium-web-v10-latin-ext_latin-600.woff2",
+      "sha256": "f00b110dfb2875dcc202f7b685d39705414ab3500b4b13666bc749e17bb670f6",
+      "source": "https://registry.npmjs.org/bootstrap-italia/-/bootstrap-italia-2.18.3.tgz",
+      "verification": "Identico byte per byte al file nel pacchetto upstream"
+    },
+    {
+      "file": "assets/bootstrap-italia-2.18.3.min.css",
+      "sha256": "28c31744a9bda84325b48493de76eefda600c82959d97e6d1380bd2b2e3137ea",
+      "source": "https://registry.npmjs.org/bootstrap-italia/-/bootstrap-italia-2.18.3.tgz",
+      "verification": "Identico al file upstream dopo rimozione BOM e commento sourceMappingURL"
+    },
+    {
+      "file": "assets/italia-titillium-web-v10-latin-ext_latin-regular.woff2",
+      "sha256": "5daca596c9f07f1735ce65a4ae52fd750a32acfa6e241a3fadaea95de354f4d1",
+      "source": "https://registry.npmjs.org/bootstrap-italia/-/bootstrap-italia-2.18.3.tgz",
+      "verification": "Identico byte per byte al file nel pacchetto upstream"
+    }
+  ]
+}
