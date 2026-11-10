@@ -3,11 +3,11 @@
 Lo strumento supporta censimento, valutazione, evidenze, validazioni, decisioni e monitoraggio dei casi d’uso. 
 Gli esiti richiedono istruttoria e responsabilità umana: non costituiscono certificazioni o provvedimenti automatici.
 
-PAIAA — versione 4.0.0-wip.9
-Copyright (c) 2026 Regione Basilicata, per il codice originale.
-Concesso in licenza a norma dell’EUPL, versione 1.2.
-Il testo integrale è nel file LICENSE.
-I componenti di terzi conservano licenze e attribuzioni proprie: vedere THIRD_PARTY_NOTICES.md e LICENSES/.
+PAIAA — versione 4.0.0-wip.9 - BETA 
+Copyright (c) 2026 Regione Basilicata, per il codice originale 
+Concesso in licenza a norma dell’EUPL, versione 1.2 
+Il testo integrale è nel file LICENSE 
+I componenti di terzi conservano licenze e attribuzioni proprie: vedere THIRD_PARTY_NOTICES.md e LICENSES 
 
 ## Avvio locale da sorgenti
 
