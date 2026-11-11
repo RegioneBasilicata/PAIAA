@@ -2,27 +2,57 @@
 publiccodeYmlVersion: '0.5'
 name: PAIAA
 url: 'https://github.com/RegioneBasilicata/PAIAA.git'
+landingURL: "https://github.com/RegioneBasilicata/PAIAA"
 softwareVersion: 4.0.0-wip.9
 platforms:
   - web
+  - linux
 categories:
   - compliance-management
-developmentStatus: development
+developmentStatus: beta
 softwareType: standalone/web
+intendedAudience:
+  countries:
+    - IT
 description:
   it:
-    shortDescription: Supporto istruttorio alla governance dei casi di uso IA nella PA.
+    shortDescription: Applicazione web della Regione Basilicata per la gestione digitale di fascicoli, documenti e relativi allegati
     longDescription: >-
-      Applicazione WIP per censimento, valutazione, evidenze, validazioni,
-      decisioni e monitoraggio, con interfaccia JavaScript e backend Node/SQLite.
-      Gli esiti richiedono verifica e decisione dei responsabili competenti.
+      PAIAA è un'applicazione web sviluppata per supportare la gestione
+      digitale di fascicoli, documenti e relativi allegati.
+
+      La soluzione comprende funzionalità per l'organizzazione dei fascicoli,
+      la gestione degli allegati, il controllo delle modifiche e la
+      conservazione delle versioni.
+
+      Il progetto è pubblicato dalla Regione Basilicata in versione beta,
+      in quanto ancora sottoposto a validazione tecnica, amministrativa,
+      funzionale, di sicurezza e di accessibilità.
+
+      Il repository contiene il codice sorgente, la configurazione Docker,
+      i test automatici, la documentazione tecnica e le indicazioni
+      necessarie per l'installazione e l'esecuzione del software.
+features:
+      - Gestione digitale dei fascicoli
+      - Gestione di documenti e allegati
+      - Controllo delle modifiche
+      - Conservazione delle versioni
+      - Configurazione dell'ambiente mediante Docker
+      - Test automatici
+      - Documentazione tecnica per l'installazione e l'utilizzo
+documentation: "https://github.com/RegioneBasilicata/PAIAA"
 legal:
   license: EUPL-1.2
+  mainCopyrightOwner: Regione Basilicata
   repoOwner: Regione Basilicata
 maintenance:
-  type: none
+  type: internal
+contacts:
+  name: Ufficio Integrazione e Sviluppo Sistemi Informativi Digitali
+  affiliation: Regione Basilicata - Direzione Generale Amministrazione Digitale
 localisation:
   localisationReady: false
   availableLanguages:
     - it
-# maintenance.type è provvisorio: non dichiara un impegno del titolare.
+organisation:
+  name: Regione Basilicata

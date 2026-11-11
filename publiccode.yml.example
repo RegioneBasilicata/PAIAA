@@ -1,0 +1,29 @@
+# BOZZA: sostituire tutti i DA_CONFERMARE e validare prima di rinominare.
+# La specifica e il validatore ufficiali devono essere verificati alla pubblicazione.
+publiccodeYmlVersion: '0.5'
+name: PAIAA
+url: 'https://github.com/DA_CONFERMARE/DA_CONFERMARE'
+softwareVersion: 4.0.0-wip.9
+platforms:
+  - web
+categories:
+  - compliance-management
+developmentStatus: development
+softwareType: standalone/web
+description:
+  it:
+    shortDescription: Supporto istruttorio alla governance dei casi di uso IA nella PA.
+    longDescription: >-
+      Applicazione WIP per censimento, valutazione, evidenze, validazioni,
+      decisioni e monitoraggio, con interfaccia JavaScript e backend Node/SQLite.
+      Gli esiti richiedono verifica e decisione dei responsabili competenti.
+legal:
+  license: EUPL-1.2
+  repoOwner: Regione Basilicata
+maintenance:
+  type: none
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
+# maintenance.type è provvisorio: non dichiara un impegno del titolare.
